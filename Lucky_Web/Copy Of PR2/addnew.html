@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Staff Blog - CRRE</title>
+	<link rel="shortcut icon" href="CRR_Logo.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class="sec1">.
+	<div class="main">
+		<div class="header">
+			<div class="head" id="head">
+				Sir CR Reddy College of Engineering - Staff Blog 
+			</div>
+			
+			
+				<button onclick="window.location.href = 'view'"><img src="icons/file-earmark.svg" alt="plus"> View</button>
+				<button onclick="window.location.href = 'addnew.html';"><img src="icons/plus.svg" alt="plus">Add New</button>
+				<button onclick="window.location.href = 'Login.html';"><img src="icons/box-arrow-left.svg" alt="logout"> Logout</button></a>
+				
+		</div>
+	</div>
+</section>
+<form>
+	<h2 style="margin: 2vh;">Fill this to Upload</h2>
+	<p id="aler"></p>
+	<p id="aler1"></p>
+	<p id="aler2"></p>
+	<p id="aler3"></p>
+	<form id="form">
+<table>
+  <tr>
+    <th>Name</th>
+    <th>File</th>
+    <th>Type Of File</th>
+	<th>Submition</th>
+  </tr>
+  <tr>
+    <td><input type="text" id="name" name="name" placeholder="Enter file name" style="padding: 1ch;margin-top: 2ch;"><br><br></td>
+    <td><input type="file" id="files" name="files" multiple size="10px"></td>
+<td><select style="padding: 2vh;border-radius: 1ch 1ch 1ch 1ch;" id="type" >
+		<option value="None">None</option>
+		<option value="Publications">Publications</option>
+		<option value="Generals">General</option>
+		<option value="Articles">Articles</option>
+	  </select>
+	</td>
+	<td>
+		<button onclick="addnewvalidate()" type="reset" id="addfile"><img src="icons/file-earmark.svg"  alt="add" >Submit</button>
+	</td>
+  </tr>
+</table>	</form>  
+</section>
+<script src="myscript.js"></script>
+</body>
+</html>

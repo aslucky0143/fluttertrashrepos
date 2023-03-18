@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="CRR_Logo.ico" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="CRR_Logo.ico" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="CRR_Logo.ico" />
+    <title>Sir CR Reddy College of Engineering</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="assets/css/assets.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/typography.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/shortcodes/shortcodes.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+  <body id="bg">
+	  <p id="aler"></p>
+    <div class="page-wraper">
+      <div id="loading-icon-bx"></div>
+      <div class="account-form">
+        <div class="account-head" style="background-color: aqua">
+          <a href="index.html"
+            ><img src="assets/CRR_Logo_White.png" alt=""
+          /></a>
+        </div>
+
+        <div class="account-form-inner">
+          <div class="account-container">
+            <div class="heading-bx left">
+              <h2 class="title-head">Register</h2>
+              <p>
+                Already Have an Account? <a href="Login.html">Click here</a>
+              </p>
+            </div>
+            <form class="contact-bx" id="registervalidateid">
+              <div class="row placeani">
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <label>Your Name(As per Registered)</label>
+                      <input
+                        name="dzName"
+                        type="text"
+                        
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <label>Designation</label>
+                      <input
+                        name="dzName"
+                        type="text"
+                        
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <label>Department</label>
+                      <input
+                        name="dzName"
+                        type="text"
+                        
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <label>Date Of Joining</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <input
+                        name="dzName"
+                        type="date"
+                        
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <div class="input-group">
+                      Nature Of Employment
+                      <input
+                        name="dzEmail"
+                        type="text"
+                        class="form-control"
+                        
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <label>Date Of Birth </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <input
+                        name="dzName"
+                        type="date"
+                        
+                        class="form-control"
+                        maxlength="3"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <label>Unique ID (AICTE FID) </label>
+                      <input
+                        name="dzName"
+                        type="text"
+                        
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <label>Email</label>
+                      <input
+                        name="dzName"
+                        type="email"
+                        
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <label>Phone</label>
+                      <input
+                        name="dzName"
+                        type="tel"
+                        
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <label>Address For Communication</label>
+                      <input
+                        name="dzName"
+                        type="text"
+                        
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 m-b30">
+                  <button
+                    name="button"
+					onclick="registervalidate()"
+                    style="background-color: aqua"
+                    type="submit"
+                    value="Submit"
+                    class="btn button-md"
+                  >
+                    Sign Up
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function registervalidate(){
+        x=document.getElementById('registervalidateid').value;
+        text="";
+        for (i = 0; i < x.length ;i++) {
+    text += x.elements[i].value +"kjasdj;k"+ "<br>";
+  }
+  document.getElementById('title-head').innerHTML=text;
+      }
+    </script>
+
+    <!-- External JavaScripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </body>
+</html>

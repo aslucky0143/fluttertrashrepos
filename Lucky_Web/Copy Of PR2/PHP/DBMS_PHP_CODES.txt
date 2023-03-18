@@ -1,0 +1,6 @@
+//login credentials php code
+$sql = "INSERT INTO `clogin` (`User`, `Password`) VALUES (\'20B81A05D3\', \'20B81A05D3\');";
+
+
+//BIODATA ENTRY PHP CODE
+$sql = "INSERT INTO `biodata`(`NAME`, `DESIGNATION`, `DEPT`, `EMAIL`) VALUES (\'[value-1]\',\'[value-2]\',\'[value-3]\',\'[value-4]\');";

@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Google Sharp Icons-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp">
+        <!--jQuery CDN Link-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="jQuery.js"></script>
+        <!--Personal StyleSheets-->
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="assets/logo.ico" type="image/x-icon">
+        <title>Sai Lucky - My Portfolio</title>
+    </head>
+    <body>
+        <a href="#">
+            <div class="home">
+                <h1 style="font-size: 1cm;">
+                    Welcome To Lucky
+                    <span style="color: blueviolet; font-size: 1cm;">Dev</span>
+                    lopers Community
+                </h1>
+                <div class="video-container">
+                    <video autoplay loop muted>
+                        <source src="assets/video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </a>
+        <div class="Nav" style="
+        width: 100%;
+        margin-top: 10px;
+        display: flexbox;
+        align-content: space-around;
+      ">
+            <a style="margin-bottom: 20 px;" href="#" class="headerTitle">
+                Sai Lucky |
+            </a>
+            <a href="#imgself" id="home" class="headerOptions">Home</a>
+            <a href="#Couses" id="Courses" class="headerOptions">Courses</a>
+            <a href="#community" id="communitybtn" class="headerOptions">Community</a>
+            <a
+                href="#feedBack"
+                id="feedbac"
+                class="headerOptions"
+                onclick="sendEmail"
+            >Feedback</a>
+        </div>
+        <div style="padding: 10px;"></div>
+        <!--Self Decladation using img-->
+        <div class="home2" id="imgself">
+            <div class="img-container">
+                <img src="assets/header-bg.jpg" style="height: 90vh; width: 100%;" alt="">
+                <marquee>
+                    <h3 style="background-color: rgb(129,77,185);">
+                        <font style="color:aliceblue;font-weight: bolder;background-color: rgb(74, 15, 138);">What's New:</font>
+                        <font style="background-color: rgb(129,77,185);"> We have added the Mobile Coding Section this helps every one to learn and execute coding in mobile
+                        </h3>
+                    </font>
+                </marquee>
+            </div>
+            <br>
+            <table style="width:40%">
+                <tr>
+                    <th>
+                        <h1 style="color: aliceblue;">
+                            I'm Sai Lucky
+                            <br>
+                            <font style="font-size: 10pt;padding: 0; margin: 0;">
+                                <p style="padding: 1px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: gray;"> Flutter Developer and Full Stack Web Developer <br> We can build application for any platform like andriod , IOS, Linux, MacOS, Windows and so on using Flutter </p>
+                            </font>
+                        </h1>
+                    </th>
+                   
+                </tr>
+            </table>
+        </div>
+        <!--Courses Offerd/ Courses preferred-->
+        <div class="Courses" id="Couses">
+            <hr>
+            <center>
+                <h1>Courses</h1>
+            </center>
+            <hr>
+            <center class="nav-course">
+                <button class="nav-cou mobcod">
+                    Mobile Coding
+                </button>
+                <button class="nav-cou web">
+                    For Web
+                </button>
+                <button class="nav-cou App">
+                    App Dev
+                </button>
+                <button class="nav-cou Prog">
+                    Programming
+                </button>
+            </center>
+            <br>
+            <h3 class="norm">Frontend</h3>
+            <br>
+            <h3 class="mobcod-main">Learning</h3>
+            <br>
+            <!--Mobile Coding-->
+            <div class="mob-cod main">
+                <center>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.apkzube.learncprogramming">
+                        <img
+                            title="C"
+                            src="assets/MOBCOD/c.png"
+                            height="200"
+                            width="auto"
+                            alt="HTML"
+                        >
+                    </a>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.apkzube.learncpp">
+                        <img
+                            title="C++"
+                            src="assets/MOBCOD/cpp.png"
+                            height="200"
+                            width="auto"
+                            alt="HTML"
+                        >
+                    </a>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.apkzube.learnpython">
+                        <img
+                            title="Python"
+                            src="assets/MOBCOD/python (1).png"
+                            height="200"
+                            width="auto"
+                            alt="HTML"
+                        >
+                    </a>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.apkzube.learnjavaprogramming">
+                        <img
+                            title="Java"
+                            src="assets/MOBCOD/java.png"
+                            height="200"
+                            width="auto"
+                            alt="HTML"
+                        >
+                    </a>
+                    <br>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.apkzube.learnrprogramming">
+                        <img
+                            title="R "
+                            src="assets/MOBCOD/r.png"
+                            height="200"
+                            width="auto"
+                            alt="HTML"
+                        >
+                    </a>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.apkzube.learnkotlin">
+                        <img
+                            title="R "
+                            src="assets/MOBCOD/kotlin.png"
+                            height="200"
+                            width="auto"
+                            alt="HTML"
+                        >
+                    </a>
+                </div>
+                <!--Web Dev-->
+                <div class="for-web main">
+                    <center>
+                        <a target="_blank" href="https://www.w3schools.com/html/default.asp">
+                            <img
+                                title="HTML"
+                                src="assets/html.png"
+                                height="200"
+                                width="auto"
+                                alt="HTML"
+                            >
+                        </a>
+                        <a target="_blank" href="https://www.w3schools.com/css/default.asp">
+                            <img
+                                title="CSS"
+                                src="assets/CSS.png"
+                                height="200"
+                                width="auto"
+                                alt="HTML"
+                            >
+                        </a>
+                        <a target="_blank" href="https://www.w3schools.com/js/default.asp">
+                            <img
+                                title="JavaScript"
+                                src="assets/js.png"
+                                height="200"
+                                width="auto"
+                                alt="HTML"
+                            >
+                        </a>
+                        <a target="_blank" href="https://getbootstrap.com/">
+                            <img
+                                title="Bootstrap"
+                                src="assets/bootstrap.png"
+                                height="200"
+                                width="auto"
+                                alt="HTML"
+                            >
+                        </a>
+                    </div>
+                    <!--App Dev-->
+                    <div class="for-app">
+                        <center>
+                            <a target="_blank" href="https://flutter.dev">
+                                <img
+                                    title="Flutter"
+                                    src="assets/flutter.png"
+                                    height="200"
+                                    width="auto"
+                                    alt="HTML"
+                                >
+                            </a>
+                            <a target="_blank" href="https://rive.app/">
+                                <img
+                                    title="Rive"
+                                    src="assets/rive.png"
+                                    height="200"
+                                    width="auto"
+                                    alt="HTML"
+                                >
+                            </a>
+                            <a target="_blank" href="https://developer.android.com/studio?gclid=Cj0KCQjw6_CYBhDjARIsABnuSzoFzGVXAtnXAZul0xOmsasV2fgwh640ulUkxZ9R3ONSGjOop5Uf3PkaAisQEALw_wcB&gclsrc=aw.ds">
+                                <img
+                                    title="Andriod Studio"
+                                    src="assets/android_studio.png"
+                                    height="200"
+                                    width="auto"
+                                    alt="HTML"
+                                >
+                            </a>
+                        </div>
+                        <!--Programming Languages-->
+                        <div class="for-prog">
+                            <center>
+                                <a target="_blank" href="https://www.w3schools.com/c/">
+                                    <img
+                                        title="C"
+                                        src="assets/c.png"
+                                        height="200"
+                                        width="auto"
+                                        alt="C"
+                                    >
+                                </a>
+                                <a target="_blank" href="https://python.org">
+                                    <img
+                                        title="Python"
+                                        src="assets/python.png"
+                                        height="200"
+                                        width="auto"
+                                        alt="Python"
+                                    >
+                                </a>
+                                <a target="_blank" href="https://www.w3schools.com/java/default.asp">
+                                    <img
+                                        title="Java"
+                                        src="assets/java.png"
+                                        height="200"
+                                        width="auto"
+                                        alt="Java"
+                                    >
+                                </a>
+                            </div>
+                            <br>
+                            <h3 class="norm">Backend</h3>
+                            <h3 class="mobcod-main">Coding</h3>
+                            <!--Mobile Coding-->
+                            <div class="mob-cod main">
+                                <center>
+                                    <a target="_blank" href="https://play.google.com/store/apps/details?id=ru.iiec.cxxdroid">
+                                        <img
+                                            title="HTML"
+                                            src="assets/MOBCOD/cxxdrod.png"
+                                            height="200"
+                                            width="auto"
+                                            alt="HTML"
+                                        >
+                                    </a>
+                                    <a target="_blank" href="https://play.google.com/store/apps/details?id=ru.iiec.jvdroid">
+                                        <img
+                                            title="CSS"
+                                            src="assets/MOBCOD/jvdroid.png"
+                                            height="200"
+                                            width="auto"
+                                            alt="HTML"
+                                        >
+                                    </a>
+                                    <a target="_blank" href="https://play.google.com/store/apps/details?id=ru.iiec.pydroid3">
+                                        <img
+                                            title="Bootstrap"
+                                            src="assets/MOBCOD/pydroid.png"
+                                            height="200"
+                                            width="auto"
+                                            alt="HTML"
+                                        >
+                                    </a>
+                                </div>
+                                <!--Web Dev-->
+                                <div class="for-web main">
+                                    <center>
+                                        <a target="_blank" href="https://www.w3schools.com/php/">
+                                            <img
+                                                title="PHP"
+                                                src="assets/php.png"
+                                                height="200"
+                                                width="auto"
+                                                alt="HTML"
+                                            >
+                                        </a>
+                                        <a target="_blank" href="https://nodejs.org">
+                                            <img
+                                                title="Node JS"
+                                                src="assets/node js.png"
+                                                height="200"
+                                                width="auto"
+                                                alt="HTML"
+                                            >
+                                        </a>
+                                        <a target="_blank" href="https://www.apachefriends.org/">
+                                            <img
+                                                title="XAMPP"
+                                                src="assets/xampp.png"
+                                                height="200"
+                                                width="auto"
+                                                alt="HTML"
+                                            >
+                                        </a>
+                                    </div>
+                                    <!--App Dev-->
+                                    <div class="for-app">
+                                        <center>
+                                            <a target="_blank" href="https://dart.dev">
+                                                <img
+                                                    title="Dart"
+                                                    src="assets/dart.png"
+                                                    height="200"
+                                                    width="auto"
+                                                    alt="HTML"
+                                                >
+                                            </a>
+                                            <a target="_blank" href="https://www.sqlite.org/">
+                                                <img
+                                                    title="SqFlite"
+                                                    src="assets/sqflite.png"
+                                                    height="200"
+                                                    width="auto"
+                                                    alt="HTML"
+                                                >
+                                            </a>
+                                        </div>
+                                        <br>
+                                        <!--Programming Languages-->
+                                        <div class="for-prog">
+                                            <center>
+                                                <a target="_blank" href="https://www.w3schools.com/php/default.asp">
+                                                    <img
+                                                        title="PHP"
+                                                        src="assets/php.png"
+                                                        height="200"
+                                                        width="auto"
+                                                        alt="HTML"
+                                                    >
+                                                </a>
+                                                <a target="_blank" href="https://www.apachefriends.org/">
+                                                    <img
+                                                        title="XAMPP"
+                                                        src="assets/MySQL.png"
+                                                        height="200"
+                                                        width="auto"
+                                                        alt="HTML"
+                                                    >
+                                                </a>
+                                            </div>
+                                            <br>
+                                            <h3 class="norm">Database</h3>
+                                            <!--Web Dev-->
+                                            <div class="for-web main">
+                                                <center>
+                                                    <a target="_blank" href="https://firebase.google.com">
+                                                        <img
+                                                            title="Firebase"
+                                                            src="assets/firebase.png"
+                                                            height="200"
+                                                            width="auto"
+                                                            alt="HTML"
+                                                        >
+                                                    </a>
+                                                    <a target="_blank" href="https://www.mysql.com">
+                                                        <img
+                                                            title="MySQL"
+                                                            src="assets/MySQL.png"
+                                                            height="200"
+                                                            width="auto"
+                                                            alt="HTML"
+                                                        >
+                                                    </a>
+                                                    <a target="_blank" href="https://www.github.com">
+                                                        <img
+                                                            title="GitHub"
+                                                            src="assets/github.png"
+                                                            height="200"
+                                                            width="auto"
+                                                            alt="HTML"
+                                                        >
+                                                    </a>
+                                                </div>
+                                                <!--App Dev-->
+                                                <div class="for-app">
+                                                    <center>
+                                                        <a target="_blank" href="https://firebase.google.com">
+                                                            <img
+                                                                title="Firebase"
+                                                                src="assets/firebase.png"
+                                                                height="200"
+                                                                width="auto"
+                                                                alt="HTML"
+                                                            >
+                                                        </a>
+                                                        <a target="_blank" href="https://aws.amazon.com/">
+                                                            <img
+                                                                title="AWS"
+                                                                src="assets/AWS.png"
+                                                                height="200"
+                                                                width="auto"
+                                                                alt="HTML"
+                                                            >
+                                                        </a>
+                                                        <a target="_blank" href="https://www.github.com">
+                                                            <img
+                                                                title="GitHub"
+                                                                src="assets/github.png"
+                                                                height="200"
+                                                                width="auto"
+                                                                alt="HTML"
+                                                            >
+                                                        </a>
+                                                    </div>
+                                                    <!--Programming Languages-->
+                                                    <div class="for-prog">
+                                                        <center>
+                                                            <a target="_blank" href="https://firebase.google.com">
+                                                                <img
+                                                                    title="Firebase"
+                                                                    src="assets/firebase.png"
+                                                                    height="200"
+                                                                    width="auto"
+                                                                    alt="HTML"
+                                                                >
+                                                            </a>
+                                                            <a target="_blank" href="https://www.mysql.com">
+                                                                <img
+                                                                    title="MySQL"
+                                                                    src="assets/MySQL.png"
+                                                                    height="200"
+                                                                    width="auto"
+                                                                    alt="HTML"
+                                                                >
+                                                            </a>
+                                                            <a target="_blank" href="https://www.github.com">
+                                                                <img
+                                                                    title="GitHub"
+                                                                    src="assets/github.png"
+                                                                    height="200"
+                                                                    width="auto"
+                                                                    alt="HTML"
+                                                                >
+                                                            </a>
+                                                        </div>
+                                                        <hr>
+                                                    </div>
+                                                    <!--community-->
+                                                    <div class="community" id="community">
+                                                        <div style="margin-left: 20px; margin-top: 20px;">
+                                                            <h2>
+                                                                | Join Our Community
+                                                            </h2>
+                                                        </div>
+                                                        <div class="slideshow-container">
+                                                            <div class="mySlides fade">
+                                                                <div
+                                                                    class="community-card"
+                                                                    id="GitHub"
+                                                                    title="GitHub"
+                                                                    style="margin-left: 50px;margin-right:10px;margin-top: 50px;margin-bottom: 50px;"
+                                                                >
+                                                                    <table style="width: 100%;">
+                                                                        <th align="left">
+                                                                            <div class="header-title">
+                                                                                <h1>GitHub</h1>
+                                                                                <h5>Join our GitHub To get the answer of the assessment provided in the</h5>
+                                                                                <a class="join-btn" target="_blank" href="https://github.com/aslucky0143">Join Now</a>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th align="right">
+                                                                            <img
+                                                                                src="assets/Icons/Community/Community slider/GitHub.png"
+                                                                                height="200"
+                                                                                width="auto"
+                                                                                alt=""
+                                                                            >
+                                                                        </th>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mySlides fade">
+                                                                <div
+                                                                    class="community-card"
+                                                                    id="discord"
+                                                                    title="discord"
+                                                                    style="margin-left: 50px;margin-right:10px;margin-top: 50px;margin-bottom: 50px;"
+                                                                >
+                                                                    <table style="width: 100%;">
+                                                                        <th align="left">
+                                                                            <div class="header-title">
+                                                                                <h1>Discord</h1>
+                                                                                <h5>Join our discord sever to maintain a seamless discussion with many developers and clear ur doubts</h5>
+                                                                                <a class="join-btn" target="_blank" href="https://discord.gg/zAWtQbd8rs">Join Now</a>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th align="right">
+                                                                            <img
+                                                                                src="assets/Icons/Community/Community slider/discord.png"
+                                                                                height="200"
+                                                                                width="auto"
+                                                                                alt=""
+                                                                            >
+                                                                        </th>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mySlides fade">
+                                                                <div
+                                                                    class="community-card"
+                                                                    id="linkedin"
+                                                                    title="linkedin"
+                                                                    style="margin-left: 50px;margin-right:10px;margin-top: 50px;margin-bottom: 50px;"
+                                                                >
+                                                                    <table style="width: 100%;">
+                                                                        <th align="left">
+                                                                            <div class="header-title">
+                                                                                <h1>LinkedIn</h1>
+                                                                                <h5>Join our LinkedIn for latest job and course updates</h5>
+                                                                                <a class="join-btn" target="_blank" href="https://www.linkedin.com/in/anjaneyulu-pemmani-945929238/">Join Now</a>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th align="right">
+                                                                            <img
+                                                                                src="assets/Icons/Community/Community slider/linkedin.png"
+                                                                                height="200"
+                                                                                width="auto"
+                                                                                alt=""
+                                                                            >
+                                                                        </th>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mySlides fade">
+                                                                <div
+                                                                    class="community-card"
+                                                                    id="instagram"
+                                                                    title="instagram"
+                                                                    style="margin-left: 50px;margin-right:10px;margin-top: 50px;margin-bottom: 50px;"
+                                                                >
+                                                                    <table style="width: 100%;">
+                                                                        <th align="left">
+                                                                            <div class="header-title">
+                                                                                <h1>Instagram</h1>
+                                                                                <h5>Join our instagram sever to maintain a seamless discussion with
+                                                                                    <br> many developers and clear ur doubts
+                                                                                </h5>
+                                                                                <a class="join-btn" target="_blank" href="https://www.instagram.com/sai_lucky_0143/">Join Now</a>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th align="right">
+                                                                            <img
+                                                                                src="assets/Icons/Community/Community slider/instagram.png"
+                                                                                height="200"
+                                                                                width="auto"
+                                                                                alt=""
+                                                                            >
+                                                                        </th>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mySlides fade">
+                                                                <div
+                                                                    class="community-card"
+                                                                    id="twitter"
+                                                                    title="twitter"
+                                                                    style="margin-left: 50px;margin-right:10px;margin-top: 50px;margin-bottom: 50px;"
+                                                                >
+                                                                    <table style="width: 100%;">
+                                                                        <th align="left">
+                                                                            <div class="header-title">
+                                                                                <h1>Twitter</h1>
+                                                                                <h5>Join our twitter For more updates</h5>
+                                                                                <a class="join-btn" target="_blank" href="https://www.twitter.com/sai_lucky_0143/">Join Now</a>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th align="right">
+                                                                            <img
+                                                                                src="assets/Icons/Community/Community slider/twitter.png"
+                                                                                height="200"
+                                                                                width="auto"
+                                                                                alt=""
+                                                                            >
+                                                                        </th>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mySlides fade">
+                                                                <div
+                                                                    class="community-card"
+                                                                    id="telegram"
+                                                                    title="telegram"
+                                                                    style="margin-left: 50px;margin-right:10px;margin-top: 50px;margin-bottom: 50px;"
+                                                                >
+                                                                    <table style="width: 100%;">
+                                                                        <th align="left">
+                                                                            <div class="header-title">
+                                                                                <h1>Telegram</h1>
+                                                                                <h5>Join our telegram for latest job and course updates</h5>
+                                                                                <a class="join-btn" target="_blank" href="https://t.me/+aLc33KLGrVo5NzRl">Join Now</a>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th align="right">
+                                                                            <img
+                                                                                src="assets/Icons/Community/Community slider/telegram.png"
+                                                                                height="200"
+                                                                                width="auto"
+                                                                                alt=""
+                                                                            >
+                                                                        </th>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <a class="prev" onclick="plusSlides(-1)">❮</a>
+                                                            <a class="next" onclick="plusSlides(1)">❯</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div style="text-align:center">
+                                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                                    <span class="dot" onclick="currentSlide(4)"></span>
+                                                    <span class="dot" onclick="currentSlide(5)"></span>
+                                                    <span class="dot" onclick="currentSlide(6)"></span>
+                                                </div>
+                                            </div>
+                                            <!--FeedBack Form-->
+                                            <section id="feedBack">
+                                                <div class="feedbackform">
+                                                    <center>
+                                                        <hr>
+                                                        <h1>
+                                                            Your FeedBack Is More Valueable to Us
+                                                        </h1>
+                                                        <h5>
+                                                            Please Fill Up The details and we will contact you as soon as
+            possible
+                                                        </h5>
+                                                        <hr>
+                                                    </center>
+                                                    <center>
+                                                        <table>
+                                                            <tr>
+                                                                <th>
+                                                                    <input
+                                                                        type="text"
+                                                                        class="feedbackFormFeild"
+                                                                        placeholder="Email Address"
+                                                                        name="email"
+                                                                        id="email"
+                                                                    >
+                                                                </th>
+                                                                <th>
+                                                                    <input
+                                                                        type="text"
+                                                                        class="feedbackFormFeild"
+                                                                        placeholder="Phone"
+                                                                        name="phone"
+                                                                        id="phone"
+                                                                    >
+                                                                </th>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2">
+                                                                    <textarea
+                                                                        rows="10"
+                                                                        cols="50"
+                                                                        placeholder="Enter your Comments/Suggestions"
+                                                                        class="feedbackFormFeild"
+                                                                    ></textarea>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <a href="#" class="feedbacklink">
+                                                            Submit
+                                                        </a>
+                                                    </center>
+                                                </div>
+                                                <hr class="ending">
+                                            </section>
+                                            <table width="100%">
+                                                <th align="left">
+                                                    <a href="" title="Copyright">
+                                                        <h5>  &#169; 2022 - 2050 Lucky Developers. All Rights Reserved</h5>
+                                                    </a>
+                                                    <br>
+                                                </th>
+                                                <th align="right">
+                                                    <div class="join" al>
+                                                        <a target="_blank" href="https://github.com/aslucky0143">
+                                                            <img src="assets/Icons/Community/github.svg" alt="">
+                                                        </a>
+                                                        <a target="_blank" href="https://discord.gg/zAWtQbd8rs">
+                                                            <img src="assets/Icons/Community/discord.svg" alt="">
+                                                        </a>
+                                                        <a target="_blank" href="https://www.linkedin.com/in/anjaneyulu-pemmani-945929238/">
+                                                            <img src="assets/Icons/Community/linkedin.svg" alt="">
+                                                        </a>
+                                                        <a target="_blank" href="https://www.instagram.com/sai_lucky_0143/">
+                                                            <img src="assets/Icons/Community/instagram.svg" alt="">
+                                                        </a>
+                                                        <a target="_blank" href="https://twitter.com/SaiLucky0143">
+                                                            <img src="assets/Icons/Community/twitter.svg" alt="">
+                                                        </a>
+                                                        <a target="_blank" href="https://t.me/+aLc33KLGrVo5NzRl">
+                                                            <img src="assets/Icons/Community/telegram.svg" alt="">
+                                                        </a>
+                                                    </div>
+                                                </th>
+                                            </table>
+                                            
+                                        </body>
+                                        <script>
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+                                        </script>
+                                    </html>

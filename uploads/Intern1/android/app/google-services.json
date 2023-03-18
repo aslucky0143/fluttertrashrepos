@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "230036257870",
+    "project_id": "intern-project-f75de",
+    "storage_bucket": "intern-project-f75de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230036257870:android:e4dd876e720bc84fb4171f",
+        "android_client_info": {
+          "package_name": "com.example.internship_testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230036257870-nker78cqn4hsjls5pfpukjbkmd036tek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrfYW9BYz0CBKHwkEdi0-xafr_1tO-Q8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230036257870-nker78cqn4hsjls5pfpukjbkmd036tek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

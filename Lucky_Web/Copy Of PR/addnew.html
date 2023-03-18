@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Services</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+</head>
+<body>
+	
+	
+			<div id="section3">
+				<!-- Start Services Area -->
+				<section id="services-area" class="services-section">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 text-center inner our-service">
+								<div class="service">
+									<h1><a href="index.html" style="color: aliceblue;">Welcome to CRR Staff Portal</a></h1>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="container p-5" style="padding-bottom: 10vh;padding-left: 5cm;">
+							<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+							<div class="row">
+								<div class="col-md-8"><button class="btn btn-primary"><a href="view.html" style="color: aliceblue;"> <i class="bi bi-file-earmark-text"></i> View</a></button></div>
+								<div class="col-6 btn col-md-4"><button class="btn btn-primary"><a href="addnew.html" style="color: aliceblue;"> <i class="bi bi-plus-circle"></i> Add New</a></button></div>
+							</div>
+							</div>
+					</section>
+                    <center>
+                        <div style="padding-top: 2cm;">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select the file type</option>
+                            <option value="1">Publications</option>
+                            <option value="2">Generals</option>
+                            <option value="3">Workshops</option>
+                          </select>
+                        </div>
+                    </center>
+						<script src="js/jquery-1.11.2.min.js"></script>
+						<script src="js/jquery.scrollUp.min.js"></script> <!-- https://github.com/markgoodyear/scrollup -->
+						<script src="js/jquery.singlePageNav.min.js"></script> <!-- https://github.com/ChrisWojcik/single-page-nav -->
+						<script src="js/parallax.js-1.3.1/parallax.js"></script> <!-- http://pixelcog.github.io/parallax.js/ -->
+						<script>
+
+    
+    $(function() {  
+        $('.services-section').parallax({
+        	imageSrc: 'img/bg-2.jpg',
+        	speed: 0.2
+    	});
+
+
+        // jQuery Scroll Up / Back To Top Image
+        $.scrollUp({
+                scrollName: 'scrollUp',
+		        scrollDistance: 300,   
+		        scrollFrom: 'top',     
+		        scrollSpeed: 1000,     
+		        easingType: 'linear',  
+		        animation: 'fade',     
+		        animationSpeed: 300,   
+		        scrollText: '', 
+		        scrollImg: true        
+            });
+
+        // ScrollUp Placement
+        $( window ).on( 'scroll', function() {
+
+            // If the height of the document less the height of the document is the same as the
+            // distance the window has scrolled from the top...
+            if ( $( document ).height() - $( window ).height() === $( window ).scrollTop() ) {
+
+                // Adjust the scrollUp image so that it's a few pixels above the footer
+                $('#scrollUp').css( 'bottom', '80px' );
+
+            } else {      
+                // Otherwise, leave set it to its default value.
+                $('#scrollUp').css( 'bottom', '30px' );        
+            }
+        });
+
+        $('.single-page-nav').singlePageNav({
+        	offset: $('.single-page-nav').outerHeight(),
+        	speed: 1500,
+        	filter: ':not(.external)',
+        	updateHash: true
+        });
+
+        $('.navbar-toggle').click(function(){
+        	$('.single-page-nav').toggleClass('show');
+        });
+
+        $('.single-page-nav a').click(function(){
+        	$('.single-page-nav').removeClass('show');
+        });
+        
+    });
+</script>
+</body>
+</html>

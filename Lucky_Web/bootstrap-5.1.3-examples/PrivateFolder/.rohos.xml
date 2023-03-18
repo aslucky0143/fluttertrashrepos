@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config ver="1">
+    <version>20100713</version>
+    <encryptionAlg>aes256</encryptionAlg>
+    <keysize>256</keysize>
+    <pathIV>false</pathIV>
+    <key>
+Rv3/QfFDgZVCGx36+1WS7ExoBE9CCAJKdrBxQ60Y+BX1cJfSHYlkBCF6IjeTAxqy7xag5oe/DjQNXDE8+yWgL2jgkuAl1KwE4CcjemKiAnhDJgCMMZwe/mgpXAyRRtkqCX8Oug==
+</key>
+    <salt>
+9RCupPU8erlYJGp4jj/60QnWbag=
+</salt>
+    <diskLetter>R:</diskLetter>
+    <diskLabel>Rohos</diskLabel>
+</config>
